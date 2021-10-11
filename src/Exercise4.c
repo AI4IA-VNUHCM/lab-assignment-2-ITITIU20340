@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
 			if (test_array[i]> test_array[j]){
 				int x = test_array[i];
 				test_array[i] = test_array[j];
-				test_array[i] = x;
+				test_array[j] = x;
 			}
 		}
 	}
@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
 			if (test_array[j]> test_array[i]){
 				int x = test_array[i];
 				test_array[i] = test_array[j];
-				test_array[i] = x;
+				test_array[j] = x;
 			}
 		}
 	}
@@ -50,6 +50,6 @@ int main(int argc, char *argv[]) {
         printf("%d ", test_array[i]);
     }
 	}
-	
+
 	return 0;
 }

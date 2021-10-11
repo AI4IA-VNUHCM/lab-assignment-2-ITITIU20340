@@ -28,6 +28,6 @@ int main(int argc, char *argv[]) {
 	} if (distance > 30){
 		result = 15000 + 28*8000 + ((distance-30)*5000);
 	}
-	printf("%d vnd", result);
+	printf("%d", result);
 	return 0;
 }
